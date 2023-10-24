@@ -1,0 +1,32 @@
+nav {
+    background-color: #d2cdcd; /* ตั้งค่าสีพื้นหลัง */
+    padding: 10px; /* เพิ่มขอบรอบ */
+    text-align: center;
+    border: #0a0a0a;
+    flex-direction: column; /* จัดตำแหน่งตัวหนังสือให้อยู่ตรงกลาง */
+}
+
+a {
+    color: #0a0a0a; /* ตั้งค่าสีของลิงค์ */
+    text-decoration: none; /* ลบการขีดเส้นใต้ลิงค์ */
+    margin: 0 10px; /* เพิ่มระยะห่างระหว่างลิงค์ */
+}
+
+a:hover {
+    border-bottom: 2px solid #c13ed8; /* เพิ่มเส้นใต้เมื่อโฮเวอร์ */
+}
+
+/* เพิ่มสีพื้นหลังและสีของตัวหนังสือ */
+nav.label_up a {
+    color: #333; /* สีของตัวหนังสือ */
+    text-decoration: none; /* ลบการขีดเส้นใต้ลิงค์ */
+    margin: 0 10px; /* เพิ่มระยะห่างระหว่างลิงค์ */
+    font-family: 'Cairo', sans-serif; /* ใช้แบบอักษร Cairo */
+    font-weight: 650; /* ความหนาของตัวหนังสือ */
+    font-size: 18px; /* ขนาดตัวหนังสือ */
+}
+
+nav.label_up a:hover {
+    color: #f410e9; /* เปลี่ยนสีของตัวหนังสือเมื่อโฮเวอร์ */
+}
+
